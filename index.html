@@ -123,6 +123,9 @@ h1,h2,h3{font-family:var(--fh);line-height:1.08;letter-spacing:-.02em;text-wrap:
 .promo .tag{position:relative;font-family:var(--fh);font-weight:700;font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;background:rgba(255,255,255,.2);display:inline-block;padding:.45rem 1.1rem;border-radius:100px;margin-bottom:1.1rem}
 .promo h3{position:relative;font-size:clamp(1.7rem,4.4vw,2.6rem);font-weight:800}
 .promo p{position:relative;margin-top:.8rem;font-size:1.1rem;color:rgba(255,255,255,.95);max-width:44ch;margin-left:auto;margin-right:auto}
+.promo-price{color:var(--yellow);white-space:nowrap}
+.promo-list{position:relative;display:flex;flex-wrap:wrap;gap:.6rem;justify-content:center;margin-top:1.4rem}
+.promo-list span{background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.3);padding:.5rem 1.05rem;border-radius:100px;font-size:.92rem;font-weight:600}
 .promo .btn{position:relative;margin-top:1.7rem;background:#fff;color:var(--red)}
 .promo .btn:hover{transform:translateY(-2px)}
 
@@ -283,10 +286,15 @@ h1,h2,h3{font-family:var(--fh);line-height:1.08;letter-spacing:-.02em;text-wrap:
 <section class="sec">
   <div class="wrap">
     <div class="promo reveal">
-      <span class="tag">Promoción</span>
-      <h3>Hora de cardio + nutrición</h3>
-      <p>Vive una sesión de cardio en escaladora y suma el acompañamiento nutricional. La forma perfecta de arrancar y sentir la diferencia desde el primer día.</p>
-      <a href="https://wa.me/525513914687?text=Hola%2C%20quiero%20la%20promo%20de%20cardio%20%2B%20nutrici%C3%B3n%20de%20Cardio%20Bonfil." class="btn" target="_blank" rel="noopener">Quiero esta promo</a>
+      <span class="tag">🔥 Promoción de Agosto</span>
+      <h3>Mensualidad a solo <span class="promo-price">$299</span></h3>
+      <p>Solo durante agosto. Tu mensualidad incluye todo esto para que arranques sin excusas:</p>
+      <div class="promo-list">
+        <span>✓ Escaneo corporal</span>
+        <span>✓ Plan de nutrición</span>
+        <span>✓ Consejos de nutrición</span>
+      </div>
+      <a href="https://wa.me/525513914687?text=Hola%2C%20quiero%20la%20promoci%C3%B3n%20de%20agosto%20de%20%24299%20en%20Cardio%20Bonfil." class="btn" target="_blank" rel="noopener">Quiero la promo de $299 →</a>
     </div>
   </div>
 </section>
